@@ -309,7 +309,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     -o-transition: 0.3s linear;
     transition: 0.3s linear;
 }
-.welcome-hero-btn:hover{/*background: #fd4043;*/background: #f43032;}
+.welcome-hero-btn:hover{background: #f43032;}
 
 .welcome-hero-btn svg {
     width:  14px;
@@ -317,7 +317,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     margin-left:  12px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
     .welcome-hero-form {
         flex-direction: column; /* Stack form elements vertically on smaller screens */
         align-items: center; /* Center elements */
@@ -333,7 +333,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     .single-welcome-hero-form:first-child {
         border-right: none; /* Remove border on mobile */
     }
-    .welcome-hero-serch-box{margin-top: 78px;display: inline-flex;}
+    .welcome-hero-serch-box{margin-top: 78px;display:inline;}
     .welcome-hero-btn {
        margin-top: 70px;
     }
